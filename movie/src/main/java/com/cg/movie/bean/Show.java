@@ -1,7 +1,6 @@
 package com.cg.movie.bean;
 
 import java.sql.Time;
-import java.time.LocalTime;
 
 public class Show {
 
@@ -12,7 +11,7 @@ public class Show {
 	private Movie movieName;
 	private int screenId;
 	private int theaterId;
-	
+
 	public Show(int showId, Time showStartTime, Time showEndTime, String showName, Movie movieName, int screenId,
 			int theaterId) {
 		super();
@@ -84,11 +83,5 @@ public class Show {
 	public void setTheaterId(int theaterId) {
 		this.theaterId = theaterId;
 	}
-	
-	
-	
-	
-	
-	
-	
+
 }
